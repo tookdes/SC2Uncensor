@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>SC2Uncensor.App</RootNamespace>
+    <AssemblyName>SC2Uncensor</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <Product>SC2 Uncensor</Product>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SC2Uncensor.Core\SC2Uncensor.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\data\offsets.dat" Link="offsets.dat" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\data\config.json" Link="config.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

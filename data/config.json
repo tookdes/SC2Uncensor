@@ -1,0 +1,17 @@
+{
+  "beep": true,
+  "log": true,
+  "forwardKeys": false,
+  "verifyClickMs": 300,
+  "checkVersion": true,
+  "screenshot": "auto",
+  "hotkeys": {
+    "master": "Ctrl+Alt+1",
+    "uncensor": "F8",
+    "uncensorAuto": "F9",
+    "clickToggle": "F11",
+    "status": "Ctrl+Alt+2",
+    "restore": "Ctrl+Alt+3",
+    "restoreAuto": "Ctrl+Alt+4"
+  }
+}

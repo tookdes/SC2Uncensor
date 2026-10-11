@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <NuGetPackageRoot>E:\Cache\nuget</NuGetPackageRoot>
+    <RestorePackagesPath>E:\Cache\nuget</RestorePackagesPath>
+  </PropertyGroup>
+</Project>
